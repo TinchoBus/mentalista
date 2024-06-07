@@ -1,0 +1,75 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 16px
+
+  }
+  img{
+    margin-top: 30px;
+    padding: 0px 0px 10px;
+    width: 15%
+    
+  }
+
+
+  .caja{
+    top: -30px;
+
+  }
+  
+  h1{
+    color:yellowgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 150px;
+    position:relative;
+    top: -20px;
+  }
+  p{
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    top: 40px;
+    font-size: 20px;
+  }
+  #numeros{
+    color:yellowgreen;
+    border: violet;
+    font-style: oblique;
+
+  }
+  button{
+    color: aliceblue;
+    background-color: blueviolet;
+    border-style: solid;
+    padding: 10px 10px 10px;
+  }
+  button:hover {
+    background: transparent;
+    color: #fec195;
+    box-shadow: 0 0 25px #fec1958c;
+  }
+  ul{
+    color: #fec195;
+    border: yellowgreen;
+    background: size 15px; ;
+   
+  }
+  #numeroSeleccionado{
+    padding: 5px 10px 10px;
+  }
+  .seleccion{
+    font-size: 20px;
+   
+  }
+  @media (max-width: 600px) {
+    /* Estilos específicos para pantallas pequeñas */
+}
+/* Estilos para dispositivos medianos y grandes */
+@media (min-width: 601px) {
+  /* Estilos específicos para pantallas medianas y grandes */
+}
